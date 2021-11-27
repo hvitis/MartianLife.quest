@@ -1,0 +1,65 @@
+en:
+  time:
+    formats:
+      default: "%B %d %Y %H:%M"
+  bands:
+    rolling_stones: "The Rolling Stones"
+    beatles: "The Beatles"
+    acdc: "AC/DC"
+  vue:
+    front:
+      title: "Front end"
+      nav:
+        homepage: "Home"
+        locations: "locations"
+        errors: "Error pages"
+      home:
+        title: "This is the Home page"
+        content: "Lorem ipsum dolor sit amet, you know the song..."
+        admin_link: "» Wanna go to the admin?"
+      locations:
+        id: "Id"
+        name: "Name"
+        band: "Band"
+        details: "Details about this location:"
+      errors:
+        title: "Error pages"
+    admin:
+      title: "Admin"
+      save: "Save"
+      cancel: "Cancel"
+      filter: "Filter"
+      nav:
+        locations: "locations"
+        dashboard: "Dashboard"
+        users: "Users"
+        chat: "Chat"
+        logout: "Logout"
+      modals:
+        chat:
+          description: "You can test ActionCable wired with Vue here, just open up this modal in another browser tab and your messages will be broadcasted in both sessions"
+          placeholder: "Type a message..."
+      dashboard:
+        title: "Dashboard"
+        location: "location | locations"
+        user: "User | Users"
+      users:
+        title: "Users"
+        create: "+ Add a new user"
+        editing_user: "Editing user"
+        creating_user: "Creating a new user"
+      locations:
+        title: "locations"
+        create: "+ Add a new location"
+        editing_location: "Editing a location"
+        creating_location: "Creating a new location"
+      confirmation: "Are you sure?"
+      activerecord:
+        models:
+          user:
+            email: "Email"
+            password: "Password"
+            password_confirmation: "Confirm password"
+          location:
+            name: "Name"
+            band: "Band"
